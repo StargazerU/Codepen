@@ -1,0 +1,102 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.logo-links-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.logo-wrapper > .logo{
+    display: flex;
+    justify-content: left;
+    margin-right: 60px;
+    margin-left: 25px;
+}
+
+.logo-wrapper > .logo img{
+    width: 170px;
+    height: 35px;
+}
+
+.links-wrapper > .links-title h1{
+    color: rgb(182, 182, 38);
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.links-wrapper > .links a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+.links-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.links-wrapper > .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-wrapper > .links > .spark-dropdown .spark{
+    margin-right: 20px;
+}
+
+.links-wrapper > .links > .spark-dropdown button{
+    background-color: black;
+    color:rgb(160, 160, 160);
+    font-size:1em;
+    padding: 5px 30px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttons-wrapper-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons-wrapper-top > .button-top button{
+    background-color: rgb(61, 63, 73);
+    color: white;
+    font-size: 1.1em;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(61, 63, 73);
+    border-radius: 2px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    height: 55px;
+    font-weight: 400;
+}
+
+.buttons-wrapper-top > .button-top  .create{
+    margin-right: 10px;
+}
+
+.buttons-wrapper-top > .button-top  .arrowhead{
+    color: rgb(26, 184, 26);
+    font-size: 1.2em;
+}
+
+.buttons-wrapper-top > .search-icon {
+    color: rgb(88, 88, 91);
+    font-size: 1.5em;
+    margin: 15px;
+}

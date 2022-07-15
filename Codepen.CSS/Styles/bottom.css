@@ -1,0 +1,18 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: -40px;
+}
+
+.footer > .box {
+    background-color: rgb(61, 63, 73);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(104, 104, 104) solid;
+}
+
+.footer > .box b{
+    font-size: 1.3em;
+}
